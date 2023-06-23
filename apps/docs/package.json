@@ -1,0 +1,37 @@
+{
+  "name": "@speed-ui/docs",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [],
+  "author": "Thiago Sousa <thiago.sousa@superfrete.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.22",
+    "@storybook/addon-interactions": "^7.0.22",
+    "@storybook/addon-links": "^7.0.22",
+    "@storybook/blocks": "^7.0.22",
+    "@storybook/react": "^7.0.22",
+    "@storybook/react-vite": "^7.0.22",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@speed-ui/eslint-config": "*",
+    "@speed-ui/ts-config": "*",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.22"
+  },
+  "dependencies": {
+    "@storybook/storybook-deployer": "^2.8.16",
+    "@speed-ui/react": "*",
+    "@speed-ui/theme": "*",
+    "@speed-ui/tokens": "*",
+    "polished": "^4.2.2"
+  }
+}

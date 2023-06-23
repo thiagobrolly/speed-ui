@@ -1,0 +1,9 @@
+{
+  "extends": "@speed-ui/eslint-config",
+  "overrides": [
+    {
+      "files": "*.mdx",
+      "extends": "plugin:mdx/recommended"
+    }
+  ]
+}
